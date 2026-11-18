@@ -21,8 +21,19 @@ from sqlalchemy import (
 )
 from sqlalchemy.orm import declarative_base, sessionmaker, relationship, joinedload
 from sqlalchemy.dialects.postgresql import ARRAY
+from sqlalchemy.ext.compiler import compiles
 from pgvector.sqlalchemy import Vector
 from google import genai
+
+# Allow SQLite compilation of PostgreSQL-specific ARRAY and Vector types
+# so local development without PostgreSQL and in-memory test databases work smoothly.
+@compiles(ARRAY, "sqlite")
+def _compile_array_sqlite(element, compiler, **kw):
+    return "TEXT"
+
+@compiles(Vector, "sqlite")
+def _compile_vector_sqlite(element, compiler, **kw):
+    return "TEXT"
 
 from config import DATABASE_URL, GEMINI_API_KEY, SERPAPI_API_KEY
 
@@ -82,8 +93,23 @@ class StaleInputError(ValueError):
         )
 
 # Create SQLAlchemy Engine and Session factory
-engine = create_engine(DATABASE_URL, pool_pre_ping=True)
-SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+# Guard against empty DATABASE_URL so the module can still be imported for
+# the FastAPI app to start (health-check, Swagger docs) even when no DB
+# connection string is configured yet.  Any route that actually touches the
+# database will get a clear error at call time instead of a crash at import.
+if DATABASE_URL:
+    db_engine = create_engine(DATABASE_URL, pool_pre_ping=True)
+else:
+    # Use an in-memory SQLite as a placeholder so ORM model definitions still
+    # bind and the module-level import chain succeeds.  Real DB calls will
+    # fail clearly at session time when the app hits a missing connection.
+    logger.warning(
+        "DATABASE_URL is not set.  Using a transient in-memory SQLite placeholder.  "
+        "Set DATABASE_URL to a valid PostgreSQL connection string for production."
+    )
+    db_engine = create_engine("sqlite:///:memory:", pool_pre_ping=False)
+engine = db_engine  # keep backward-compat alias used elsewhere in this module
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=db_engine)
 
 Base = declarative_base()
 

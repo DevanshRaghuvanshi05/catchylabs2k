@@ -80,11 +80,22 @@ def is_demo_mode() -> bool:
     """Returns True if DEMO_MODE is enabled via module flag or environment."""
     return bool(_DEMO_MODE or os.environ.get("DEMO_MODE", "0") in ("1", "true", "True", "yes", "YES"))
 
+_DEFAULT_LOCAL_ORIGINS = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "http://localhost:8080",
+    "http://127.0.0.1:8080",
+]
 _ALLOWED_ORIGINS_RAW: str = os.environ.get("ALLOWED_ORIGINS", "")
-_ALLOWED_ORIGINS: list[str] = (
+_CONFIGURED_ORIGINS: list[str] = (
     [o.strip() for o in _ALLOWED_ORIGINS_RAW.split(",") if o.strip()]
     if _ALLOWED_ORIGINS_RAW.strip()
     else []
+)
+_ALLOWED_ORIGINS: list[str] = (
+    _CONFIGURED_ORIGINS if _CONFIGURED_ORIGINS else _DEFAULT_LOCAL_ORIGINS
 )
 
 
@@ -197,7 +208,13 @@ def _check_research_run_quota() -> None:
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Lifespan event handler initializing DB tables on startup."""
-    init_db()
+    try:
+        init_db()
+    except Exception as exc:
+        logger.error(
+            f"Database initialization failed on startup: {exc}. "
+            "Backend is running, but database-dependent operations will fail until connection issues are resolved."
+        )
     yield
 
 
