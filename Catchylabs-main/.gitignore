@@ -1,0 +1,23 @@
+# Environment files (never commit secrets to version control)
+.env
+.env.*
+!.env.example
+.env.test
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Output reports
+outputs/
+research_report_*.json
+
+# Database backups (pg_dump files — can contain sensitive data)
+backups/
+*.dump

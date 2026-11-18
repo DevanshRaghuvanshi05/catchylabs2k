@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "Balaji Wafers holds the third-largest market share of 12% in India's Rs 43,800-crore salty snacks market, behind Haldiram's which holds 21%.",
+    "source": {
+      "title": "Balaji Wafers: With over Rs 5000 crore sales, how a Rajkot ...",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/balaji-wafers-with-over-rs-5000-crore-sales-how-a-rajkot-based-company-is-in-the-league-of-haldirams-pepsico/articleshow/105622834.cms",
+      "publisher": "Times of India",
+      "published_date": null
+    },
+    "evidence": "It currently holds the third-largest market share of 12% in India's Rs 43,800-crore salty snacks market, trailing behind Haldiram's with 21% and ...",
+    "market": "India",
+    "audience": "Indian snackers",
+    "topic": "market share",
+    "confidence": 0.95
+  },
+  {
+    "claim": "Balaji Wafers positions its portfolio around traditional Indian flavors and crunch while promoting direct-to-consumer e-commerce sales with free shipping incentives above Rs. 1000.",
+    "source": {
+      "title": "Balaji Wafers",
+      "url": "https://www.balajiwafers.com/",
+      "publisher": "https://www.balajiwafers.com",
+      "published_date": null
+    },
+    "evidence": "Explore iconic Indian snacks made with love, tradition, and unmatched crunch. Balaji Wafers \ud83d\ude9a Free Shipping on Orders Over Rs. 1000! India's blockbuster snack",
+    "market": "India",
+    "audience": "Indian snackers",
+    "topic": "competition",
+    "confidence": 0.7
+  },
+  {
+    "claim": "Haldiram's maintains a dominant market share in the Indian snack sector, backed by extensive geographic reach and strong operating efficiency.",
+    "source": {
+      "title": "Haldiram Snacks Food Private Limited",
+      "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/HaldiramSnacksFoodPrivateLimited_January%2029_%202026_RR_387859.html",
+      "publisher": "CRISIL Ratings",
+      "published_date": "2026-01-29"
+    },
+    "evidence": "dominant market share, extensive geographic reach and strong operating efficiency. Rs 1000 crore",
+    "market": "India",
+    "audience": "Indian youth, Gen Z, working professionals, and snackers",
+    "topic": "competition",
+    "confidence": 0.85
+  },
+  {
+    "claim": "Bingo rapidly captured a significant market share by targeting youth consumers with distinct Indian flavors and high-impact marketing campaigns.",
+    "source": {
+      "title": "ITC Bingo: India's Snack Market Strategy | PDF | Potato Chip",
+      "url": "https://www.scribd.com/presentation/63902838/Bingo",
+      "publisher": "https://www.scribd.com",
+      "published_date": null
+    },
+    "evidence": "Bingo gained a 16% market share within 9 months by targeting the youth with Indian flavors and a high-decibel marketing campaign. Mad Angles 8%",
+    "market": "India",
+    "audience": "Indian youth, Gen Z, working professionals, and snackers",
+    "topic": "competition",
+    "confidence": 0.95
+  }
+]

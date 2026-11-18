@@ -1,0 +1,71 @@
+{
+  "version": "1.1.0",
+  "description": "Original CatchyLab operational playbooks. These concise summaries are guidance, not empirical evidence or a substitute for source review.",
+  "corpus_metadata": {
+    "content_origin": "CatchyLab original internal synthesis",
+    "original_language": "en",
+    "script": "latin",
+    "translation_status": "not_translated",
+    "usage_rights": "internal_original",
+    "human_review_status": "not_independently_reviewed",
+    "training_eligible": false
+  },
+  "documents": [
+    {
+      "id": "marketing-foundations",
+      "domain": "marketing_fundamentals",
+      "title": "Segmentation, targeting, positioning, and customer value",
+      "keywords": ["रणनीति", "ब्रांड", "बाज़ार", "लक्षित ग्राहक", "brand strategy", "bazaar", "lakshit grahak"],
+      "content": "Start with a decision and customer problem. Segment a market using needs, behavior, context, or other decision-relevant differences; assess segment attractiveness and the organization's ability to serve it; choose a target deliberately; then state the frame of reference, audience, point of difference, and reason to believe. Treat market size, willingness to pay, and product-market fit as questions requiring fit-for-purpose evidence. A value proposition connects an audience need to a credible benefit and meaningful differentiation. Do not treat a framework as proof that a segment exists or is profitable."
+    },
+    {
+      "id": "consumer-behavior-jtbd",
+      "domain": "consumer_behavior",
+      "title": "Consumer psychology: jobs, motivations, and purchase barriers",
+      "keywords": ["ग्राहक", "ज़रूरत", "समस्या", "खरीद", "audience pain point", "grahak", "zaroorat", "pareshani", "khareed"],
+      "content": "Describe a job as progress a person seeks in a particular context, including functional, emotional, and social dimensions where relevant. Investigate triggers, desired outcomes, alternatives, anxieties, constraints, and the circumstances of choice. Separate customer language observed in sources from the analyst's interpretation. Behavioral theories and persuasion effects are context-dependent hypotheses, not universal laws. Do not use deceptive scarcity, fabricated urgency, or unsupported psychological claims."
+    },
+    {
+      "id": "research-design",
+      "domain": "research_methods",
+      "title": "Match research design to the decision question",
+      "keywords": ["शोध", "खोज", "प्रश्न", "जांच", "research", "khoj", "jaanch"],
+      "content": "Exploratory research clarifies poorly understood problems and develops candidate explanations; descriptive research characterizes observed patterns; causal research requires a design that identifies a counterfactual, such as a suitable randomized experiment or defensible quasi-experiment. Qualitative evidence helps explain meaning and mechanisms but does not estimate population prevalence by itself. Quantitative conclusions depend on measurement, sampling, and design. Mixed methods combine approaches only when their integration answers the question. Desk research is secondary research and cannot be reported as primary customer research."
+    },
+    {
+      "id": "research-quality",
+      "domain": "research_quality",
+      "title": "Evidence quality, bias, and uncertainty",
+      "keywords": ["सबूत", "प्रमाण", "भरोसा", "पक्षपात", "evidence", "saboot", "pramaan", "bharosa", "pakshpaat"],
+      "content": "Check construct validity, measurement reliability, recency, source incentives, selection and response bias, sampling coverage, independence of sources, contradictory evidence, and alternative explanations. Search results and public discussions are selected observations, not representative surveys. A primary source may be interested; a peer-reviewed source may be inapplicable. Preserve uncertainty and explain what evidence cannot establish. Do not claim statistical significance without an appropriate statistical test, or causation from correlation alone."
+    },
+    {
+      "id": "brand-positioning",
+      "domain": "brand_strategy",
+      "title": "Positioning, differentiation, and brand memory",
+      "keywords": ["पहचान", "आवाज़", "अलग पहचान", "brand voice", "pehchaan", "awaaz"],
+      "content": "Positioning should make the intended audience, category or frame of reference, distinctive benefit, and supporting evidence coherent. Distinguish verified product facts from user-confirmed preferences, analyst inferences, and untested hypotheses. Assess differentiation against alternatives customers actually consider. Build brand memory through consistent, recognizable cues while adapting the message to audience context. Do not state a differentiator as fact unless evidence supports it."
+    },
+    {
+      "id": "creative-strategy",
+      "domain": "creative_strategy",
+      "title": "Creative territories and message discipline",
+      "keywords": ["विज्ञापन", "हुक", "मज़ाक", "हास्य", "कहानी", "अभियान", "reel", "ad hook", "mazaak", "hasya", "kahani", "abhiyan"],
+      "content": "A useful creative brief aligns the objective, audience, insight or strategic hypothesis, product benefit, reason to believe, message, tone, format, and call to action. Generate distinct territories with different audience tensions or mechanisms, not only rewritten headlines. Humor, emotional, educational, premium, minimalist, product-led, and curiosity-led styles should fit the brand and task. Curiosity may delay a reveal but must retain a coherent connection to the product. Avoid unsupported claims and imitation of identifiable competitor work."
+    },
+    {
+      "id": "analytics-experimentation",
+      "domain": "analytics_and_experimentation",
+      "title": "Measurement, experiments, and attribution limits",
+      "keywords": ["माप", "प्रयोग", "नतीजा", "सफलता", "performance", "maap", "prayog", "nateeja"],
+      "content": "Define the decision, primary outcome, guardrails, exposure, unit of analysis, and observation window before evaluating a campaign. Distinguish leading indicators from lagging outcomes. A/B tests need appropriate randomization, adequate sample planning, and checks for contamination and multiple comparisons. Observational conversion patterns may reflect confounding, selection, or attribution error and do not prove incrementality. Do not invent benchmarks or performance values; report uncertainty and data limitations."
+    },
+    {
+      "id": "competitive-intelligence",
+      "domain": "competitive_intelligence",
+      "title": "Evidence-led competitor analysis",
+      "keywords": ["प्रतिस्पर्धी", "मुकाबला", "तुलना", "competitor", "pratispardhi", "muqabla", "tulana"],
+      "content": "Compare competitors using observed, attributable public claims and offers within a defined market, audience, and time period. Separate a competitor's stated positioning from customer perception and business performance. Record source date and provenance, look for independent evidence, and do not infer market share, effectiveness, or strategic intent from a single page or search result. Describe an apparent whitespace as a hypothesis until audience demand and brand fit are tested."
+    }
+  ]
+}

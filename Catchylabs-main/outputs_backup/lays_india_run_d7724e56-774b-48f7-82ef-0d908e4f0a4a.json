@@ -1,0 +1,369 @@
+{
+  "run_id": "d7724e56-774b-48f7-82ef-0d908e4f0a4a",
+  "brief": {
+    "brand": "Lay's",
+    "market": "India",
+    "audience": "Indian youth, Gen Z, working professionals, and snackers",
+    "objective": "Identify market, consumer, and creative opportunities for Lay's potato chips in India against key competitors (Bingo!, Balaji Wafers, Haldiram's, Too Yumm!, Pringles, and regional brands), exploring consumer sentiment around local Indian flavors, portion sizes, health/baked alternatives, pricing dynamics, and snacking occasions."
+  },
+  "agent1_stats": {
+    "evidence_count": 19,
+    "queries": [
+      "India potato chips competitor market share",
+      "Indian Gen Z savory snacking trends",
+      "India healthy baked chips market growth",
+      "India snack food pricing portion sizes",
+      "Lay's India regional flavor consumer sentiment",
+      "Lay's India pricing strategy pocket friendly packs consumer response",
+      "Indian youth snacking occasions consumer behavior potato chips",
+      "Lay's baked healthy alternatives market share India competitors Too Yumm"
+    ],
+    "report_file": "E:\\CatchyLabs\\research_report_lay_s_20261019_002933.json"
+  },
+  "agent2_insights": [
+    {
+      "id": 129,
+      "research_run_id": "d7724e56-774b-48f7-82ef-0d908e4f0a4a",
+      "insight_type": "segment",
+      "insight_text": "Indian youth and Gen Z consumers form a critical segment actively targeted by major snack brands through high-impact marketing and unique flavor innovations, driving rapid market presence and preference.",
+      "supporting_evidence_ids": [
+        336,
+        349
+      ],
+      "created_at": "2026-10-18T19:21:56.751360+00:00"
+    },
+    {
+      "id": 130,
+      "research_run_id": "d7724e56-774b-48f7-82ef-0d908e4f0a4a",
+      "insight_type": "segment",
+      "insight_text": "Working professionals and snackers navigate a competitive organized snack market dominated by global leaders like Lay's alongside powerful regional and traditional players like Haldiram's and Balaji Wafers.",
+      "supporting_evidence_ids": [
+        332,
+        346,
+        348
+      ],
+      "created_at": "2026-10-18T19:21:56.751360+00:00"
+    },
+    {
+      "id": 131,
+      "research_run_id": "d7724e56-774b-48f7-82ef-0d908e4f0a4a",
+      "insight_type": "motivation",
+      "insight_text": "Consumers are strongly drawn to snacking for comfort, flavor, and cultural alignment, with a massive preference for hyper-localized tastes such as India's Magic Masala that connect deeply with Indian tastebuds.",
+      "supporting_evidence_ids": [
+        336,
+        337,
+        345,
+        347
+      ],
+      "created_at": "2026-10-18T19:21:56.751360+00:00"
+    },
+    {
+      "id": 132,
+      "research_run_id": "d7724e56-774b-48f7-82ef-0d908e4f0a4a",
+      "insight_type": "motivation",
+      "insight_text": "Aspirations for healthier lifestyles are driving a significant segment toward baked snack alternatives and health-focused options, reflecting a growing market demand for nutritious snacking choices.",
+      "supporting_evidence_ids": [
+        339,
+        341,
+        343
+      ],
+      "created_at": "2026-10-18T19:21:56.751360+00:00"
+    },
+    {
+      "id": 133,
+      "research_run_id": "d7724e56-774b-48f7-82ef-0d908e4f0a4a",
+      "insight_type": "pain_point",
+      "insight_text": "Consumers face tensions between indulging in traditional comfort snacks and managing daily caloric intake, as snacking constitutes a substantial portion of daily calories, particularly among younger demographics.",
+      "supporting_evidence_ids": [
+        344,
+        345
+      ],
+      "created_at": "2026-10-18T19:21:56.751360+00:00"
+    },
+    {
+      "id": 134,
+      "research_run_id": "d7724e56-774b-48f7-82ef-0d908e4f0a4a",
+      "insight_type": "pain_point",
+      "insight_text": "Navigating a highly competitive market featuring diverse pricing strategies, value packs, and direct-to-consumer delivery incentives forces snackers to constantly weigh affordability and portion accessibility.",
+      "supporting_evidence_ids": [
+        337,
+        347,
+        350
+      ],
+      "created_at": "2026-10-18T19:21:56.751360+00:00"
+    },
+    {
+      "id": 135,
+      "research_run_id": "d7724e56-774b-48f7-82ef-0d908e4f0a4a",
+      "insight_type": "behavioral_pattern",
+      "insight_text": "Snackers frequently purchase pocket-friendly, widely available impulse packs that ensure ubiquitous market presence and seamless integration into daily routines.",
+      "supporting_evidence_ids": [
+        337
+      ],
+      "created_at": "2026-10-18T19:21:56.751360+00:00"
+    },
+    {
+      "id": 136,
+      "research_run_id": "d7724e56-774b-48f7-82ef-0d908e4f0a4a",
+      "insight_type": "behavioral_pattern",
+      "insight_text": "Consumers increasingly engage with digital and direct-to-consumer e-commerce channels, taking advantage of shipping incentives to procure traditional and alternative snack portfolios directly.",
+      "supporting_evidence_ids": [
+        347
+      ],
+      "created_at": "2026-10-18T19:21:56.751360+00:00"
+    }
+  ],
+  "agent3_competitive_intel": {
+    "research_run_id": "d7724e56-774b-48f7-82ef-0d908e4f0a4a",
+    "competitors": [
+      {
+        "name": "Bingo!",
+        "positioning": "Targets Indian youth and Gen Z with bold desi flavors and high-impact marketing campaigns for occasions like parties [349, 351, 352].",
+        "strengths": [
+          "Bold desi flavors popular with Gen Z [351]",
+          "Engaging brand voice and high-decibel campaigns [349, 351]",
+          "Diverse product varieties including popped chips and cheese chips [352]"
+        ],
+        "weaknesses": [
+          "Holds a smaller market share compared to the market leader [334]"
+        ],
+        "supporting_evidence_ids": [
+          334,
+          349,
+          351,
+          352
+        ]
+      },
+      {
+        "name": "Balaji Wafers",
+        "positioning": "Positions its portfolio around traditional Indian flavors, crunch, and product quality in the regional and national salty snacks market [346, 347, 357].",
+        "strengths": [
+          "Strong regional market position and robust market share [346]",
+          "Focus on product quality and building consumer demand [357, 358]",
+          "Direct-to-consumer e-commerce fulfillment with free shipping incentives [347]"
+        ],
+        "weaknesses": [
+          "Relies less on traditional marketing strategies compared to major competitors [357]"
+        ],
+        "supporting_evidence_ids": [
+          346,
+          347,
+          357,
+          358
+        ]
+      },
+      {
+        "name": "Haldiram's",
+        "positioning": "Maintains a dominant footprint in the Indian snack sector supported by extensive geographic reach and strong operational efficiency [348].",
+        "strengths": [
+          "Dominant market share in India's salty snacks market [346, 348]",
+          "Extensive geographic reach and strong operating efficiency [348]"
+        ],
+        "weaknesses": [
+          "Faces intense competition from organized potato chip players and regional brands"
+        ],
+        "supporting_evidence_ids": [
+          346,
+          348
+        ]
+      },
+      {
+        "name": "Too Yumm!",
+        "positioning": "Positioned as a healthier baked and alternative snack brand offering hatke flavors and targeting Gen Z via digital engagement and ambassadors [341, 353, 356].",
+        "strengths": [
+          "Healthier baked snack positioning competing against traditional fried snacks [341, 356]",
+          "Targeted Gen Z strategy utilizing K-Drama energy and digital marketing [353]",
+          "Portfolio diversification into premium and health-oriented segments like oats masala and truffle gourmet chips [355]"
+        ],
+        "weaknesses": [
+          "Navigating consumer skepticism typical of health-oriented alternative snack brands"
+        ],
+        "supporting_evidence_ids": [
+          341,
+          353,
+          355,
+          356
+        ]
+      },
+      {
+        "name": "Pringles",
+        "positioning": "Maintains a competitive pricing strategy to target a broader segment of the consumer market [350].",
+        "strengths": [
+          "Consistent competitive pricing strategy targeting a wide consumer base [350]"
+        ],
+        "weaknesses": [
+          "Less emphasis on deeply localized regional Indian flavor profiles compared to domestic rivals"
+        ],
+        "supporting_evidence_ids": [
+          350
+        ]
+      }
+    ],
+    "market_structure": {
+      "concentration": "The Indian potato chips and salty snacks market is highly competitive and dominated in the organized segment by players like Lay's and Bingo! [332]. Lay's leads the potato chips segment, while competitors like Haldiram's and Balaji Wafers hold significant shares in the broader salty snacks market [334, 346, 348]. The market is also experiencing a growing shift toward healthy, baked, and alternative snack options [339, 341].",
+      "supporting_evidence_ids": [
+        332,
+        334,
+        339,
+        341,
+        346,
+        348
+      ]
+    },
+    "competitive_gaps": [
+      {
+        "id": 1,
+        "gap": "Capturing the rapidly expanding health-conscious and baked snack segment where consumers seek alternatives to traditional fried chips, evidenced by the growth of healthy snack alternatives and premium health-oriented product lines [339, 341, 355].",
+        "supporting_evidence_ids": [
+          339,
+          341,
+          355
+        ]
+      },
+      {
+        "id": 2,
+        "gap": "Deepening digital engagement and targeted youth marketing around specific cultural occasions (such as K-Drama crossover appeal or party snacking) to better capture Gen Z preferences against agile rivals [351, 352, 353].",
+        "supporting_evidence_ids": [
+          351,
+          352,
+          353
+        ]
+      }
+    ],
+    "created_at": "2026-10-18T19:23:14.939060+00:00"
+  },
+  "agent4_creative_gaps": [
+    {
+      "id": 101,
+      "research_run_id": "d7724e56-774b-48f7-82ef-0d908e4f0a4a",
+      "gap_title": "The Guilt-Free Comfort Paradox in Hyper-Localized Snacking",
+      "description": "While consumers are strongly drawn to snacking for comfort, flavor, and cultural alignment with a massive preference for hyper-localized tastes like India's Magic Masala, they face acute tensions between indulging in traditional comfort snacks and managing daily caloric intake, as snacking constitutes a substantial portion of daily calories, particularly among younger demographics. Competitors like Too Yumm! attempt to target the health-conscious segment through baked and alternative snacks, but they consistently navigate consumer skepticism typical of health-oriented alternative snack brands, while major players like Haldiram's and Balaji Wafers lean heavily into traditional fried formulations. Lay's can exploit this gap by fusing its superior mastery of hyper-localized flavor with an uncompromised guilt-free narrative that resolves the caloric tension without triggering the taste skepticism associated with health brands.",
+      "supporting_consumer_insight_ids": [
+        131,
+        132,
+        133
+      ],
+      "supporting_competitor_names": [
+        "Too Yumm!",
+        "Haldiram's",
+        "Balaji Wafers"
+      ],
+      "supporting_competitive_gap_ids": [
+        1
+      ],
+      "confidence": "high",
+      "created_at": "2026-10-18T19:23:27.120801+00:00"
+    },
+    {
+      "id": 102,
+      "research_run_id": "d7724e56-774b-48f7-82ef-0d908e4f0a4a",
+      "gap_title": "Frictionless Impulse-to-Digital Micro-Indulgence for Gen Z",
+      "description": "Indian youth and Gen Z consumers actively seek high-impact marketing and unique flavor innovations, frequently purchasing pocket-friendly, widely available impulse packs that ensure ubiquitous market presence and seamless integration into daily routines. Furthermore, consumers increasingly engage with digital and direct-to-consumer e-commerce channels. However, competitors like Bingo! rely on high-impact party campaigns and Too Yumm! focuses on digital K-Drama energy, missing the immediate, granular behavioral pattern of pocket-friendly daily impulse integration combined with frictionless digital procurement. Lay's can seize this territory by uniting ubiquitous impulse accessibility with culturally tailored digital engagement that speaks directly to Gen Z snackers on-the-go.",
+      "supporting_consumer_insight_ids": [
+        129,
+        135,
+        136
+      ],
+      "supporting_competitor_names": [
+        "Bingo!",
+        "Too Yumm!"
+      ],
+      "supporting_competitive_gap_ids": [
+        2
+      ],
+      "confidence": "high",
+      "created_at": "2026-10-18T19:23:27.120801+00:00"
+    },
+    {
+      "id": 103,
+      "research_run_id": "d7724e56-774b-48f7-82ef-0d908e4f0a4a",
+      "gap_title": "Value-Accessibility and Local Flavor Harmony for Professional Routines",
+      "description": "Working professionals and snackers navigate a competitive organized snack market where they must constantly weigh affordability and portion accessibility while staying connected to cultural alignments and hyper-localized tastes like India's Magic Masala. Regional and traditional players like Balaji Wafers and Haldiram's maintain strong regional shares and direct-to-consumer fulfillment incentives, whereas global alternatives like Pringles maintain a consistent competitive pricing strategy but lack deep emphasis on deeply localized regional Indian flavor profiles. Lay's can bridge this divergence by creating a strategic creative platform that marries hyper-localized comfort flavor with intelligent, value-driven portion accessibility tailored specifically to the daily routines of working professionals.",
+      "supporting_consumer_insight_ids": [
+        130,
+        131,
+        134
+      ],
+      "supporting_competitor_names": [
+        "Balaji Wafers",
+        "Haldiram's",
+        "Pringles"
+      ],
+      "supporting_competitive_gap_ids": [],
+      "confidence": "medium",
+      "created_at": "2026-10-18T19:23:27.120801+00:00"
+    }
+  ],
+  "opportunity_scores": [
+    {
+      "id": 25,
+      "research_run_id": "d7724e56-774b-48f7-82ef-0d908e4f0a4a",
+      "creative_gap_id": 102,
+      "rank": 1,
+      "overall_score": 4.75,
+      "scores": {
+        "audience_demand": 5,
+        "competitive_whitespace": 4,
+        "brand_fit": 5,
+        "feasibility": 5
+      },
+      "reasoning": {
+        "audience_demand": "Indian youth and Gen Z consumers form a critical segment actively targeted by major snack brands through high-impact marketing, frequently purchasing pocket-friendly, widely available impulse packs that integrate seamlessly into daily routines.",
+        "competitive_whitespace": "Competitors like Bingo! rely on high-impact party campaigns and Too Yumm! focuses on digital K-Drama energy, missing the immediate, granular behavioral pattern of pocket-friendly daily impulse integration combined with frictionless digital procurement.",
+        "brand_fit": "Lay's enjoys ubiquitous market presence and high consumer familiarity among youth and Gen Z, making it a natural fit to unite impulse accessibility with culturally tailored digital engagement.",
+        "feasibility": "The brand already maintains widespread distribution of pocket-friendly impulse packs and strong retail footprints, making the execution of digital micro-indulgence highly accessible."
+      },
+      "created_at": "2026-10-18T19:23:36.684114+00:00"
+    },
+    {
+      "id": 26,
+      "research_run_id": "d7724e56-774b-48f7-82ef-0d908e4f0a4a",
+      "creative_gap_id": 101,
+      "rank": 2,
+      "overall_score": 4.55,
+      "scores": {
+        "audience_demand": 5,
+        "competitive_whitespace": 4,
+        "brand_fit": 5,
+        "feasibility": 4
+      },
+      "reasoning": {
+        "audience_demand": "Consumers experience an acute tension between indulging in traditional comfort snacks and managing daily caloric intake, as snacking constitutes a substantial portion of daily calories. This is compounded by a strong preference for hyper-localized tastes like India's Magic Masala that connect deeply with Indian tastebuds.",
+        "competitive_whitespace": "Competitors like Too Yumm! consistently navigate consumer skepticism typical of health-oriented alternative snack brands, while major players like Haldiram's and Balaji Wafers lean heavily into traditional fried formulations, leaving a clear opening for a guilt-free narrative.",
+        "brand_fit": "Lay's possesses superior mastery of hyper-localized flavor, giving it authentic brand permission to fuse traditional taste preferences with an uncompromised guilt-free narrative for Indian snackers.",
+        "feasibility": "Leveraging existing flavor mastery and supply chains makes addressing this tension operationally achievable, though it requires careful product formulation to overcome standard health-brand taste skepticism."
+      },
+      "created_at": "2026-10-18T19:23:36.684114+00:00"
+    },
+    {
+      "id": 27,
+      "research_run_id": "d7724e56-774b-48f7-82ef-0d908e4f0a4a",
+      "creative_gap_id": 103,
+      "rank": 3,
+      "overall_score": 3.75,
+      "scores": {
+        "audience_demand": 4,
+        "competitive_whitespace": 3,
+        "brand_fit": 4,
+        "feasibility": 4
+      },
+      "reasoning": {
+        "audience_demand": "Working professionals and snackers navigate a competitive organized snack market forcing them to constantly weigh affordability and portion accessibility while staying connected to cultural alignments and hyper-localized tastes like India's Magic Masala.",
+        "competitive_whitespace": "Regional and traditional players like Balaji Wafers and Haldiram's maintain strong regional shares and fulfillment incentives, whereas global alternatives like Pringles maintain a consistent competitive pricing strategy.",
+        "brand_fit": "As a global leader alongside powerful regional and traditional players, Lay's is well-positioned to bridge the divergence between comfort flavor and value-driven portion accessibility.",
+        "feasibility": "Balancing value-driven portion accessibility with localized flavor profiles is operationally practical for an established market leader with robust manufacturing and distribution networks."
+      },
+      "created_at": "2026-10-18T19:23:36.684114+00:00"
+    }
+  ],
+  "api_verification": {
+    "/research/d7724e56-774b-48f7-82ef-0d908e4f0a4a": "200 OK",
+    "/research/d7724e56-774b-48f7-82ef-0d908e4f0a4a/consumer-intelligence": "200 OK",
+    "/research/d7724e56-774b-48f7-82ef-0d908e4f0a4a/competitor-intelligence": "200 OK",
+    "/research/d7724e56-774b-48f7-82ef-0d908e4f0a4a/creative-gaps": "200 OK",
+    "/research/d7724e56-774b-48f7-82ef-0d908e4f0a4a/opportunities": "200 OK",
+    "/research/d7724e56-774b-48f7-82ef-0d908e4f0a4a/cost": "200 OK",
+    "/research/d7724e56-774b-48f7-82ef-0d908e4f0a4a/logs": "200 OK",
+    "/quota-status": "200 OK"
+  }
+}

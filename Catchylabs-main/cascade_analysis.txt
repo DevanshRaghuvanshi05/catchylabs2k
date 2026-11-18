@@ -1,0 +1,42 @@
+=== Cascade Analysis Report ===
+
+save_* Functions that Delete Then Re-insert:
+
+1. save_consumer_insights (line 1198):
+   - Deletes: session.query(ConsumerInsight).filter_by(research_run_id=run_id).delete()
+   - Cascades to: supporting_evidence (via evidence.creative_gap_id FK on CASCADE)
+   - FK: consumer_insights_research_run_id_fkey -> research_runs.id (ON DELETE CASCADE)
+
+2. save_competitive_intelligence (line 1352):
+   - Deletes: session.query(CompetitiveIntelligence).filter_by(research_run_id=run_id).delete()
+   - Cascades to: None (single table, no dependent tables)
+   - FK: competitive_intelligence_research_run_id_fkey -> research_runs.id (ON DELETE CASCADE)
+
+3. save_creative_gaps (line 1461):
+   - Changed from delete to: session.query(CreativeGap).filter_by(research_run_id=run_id).filter(CreativeGap.superseded_at.is_(None)).update({"superseded_at": datetime.now(timezone.utc)})
+   - Now marks old gaps as superseded instead of deleting
+   - No longer cascades to opportunity_scores or content_pieces (changed FKs to RESTRICT)
+
+4. save_opportunity_scores (line 1568):
+   - Deletes: session.query(OpportunityScore).filter_by(research_run_id=run_id).delete()
+   - Cascades to: None (FKs changed to RESTRICT)
+   - FK: opportunity_scores_creative_gap_id_fkey -> creative_gaps.id (ON DELETE RESTRICT)
+   - FK: opportunity_scores_research_run_id_fkey -> research_runs.id (ON DELETE CASCADE)
+
+5. save_content_pieces (line 1730):
+   - Deletes by creative_gap_id: session.query(ContentPiece).filter_by(research_run_id=run_id, creative_gap_id=gid).delete()
+   - Cascades to: content_feedback (via CASCADE)
+   - FK: content_pieces_creative_gap_id_fkey -> creative_gaps.id (ON DELETE RESTRICT)
+   - FK: content_pieces_research_run_id_fkey -> research_runs.id (ON DELETE CASCADE)
+
+=== Summary ===
+
+Current State After Changes:
+- save_creative_gaps: Now uses superseded_at instead of delete (no cascade)
+- save_opportunity_scores: Still deletes, but FKs changed to RESTRICT (prevents cascade)
+- save_content_pieces: Still deletes by creative_gap_id, but FK changed to RESTRICT (prevents cascade from creative_gaps deletion)
+- content_feedback: Cascades when content_piece is deleted (acceptable - feedback tied to piece)
+
+Need to Update:
+- save_opportunity_scores: Should also use superseded_at pattern or only delete non-superseded gaps
+- save_content_pieces: Should respect superseded_at when deleting by creative_gap_id
